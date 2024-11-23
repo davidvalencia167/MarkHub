@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color principal de la aplicación -->
+    <color name="primaryColor">#4CAF50</color> <!-- Verde -->
+    <color name="primaryLightColor">#80E27E</color> <!-- Verde claro -->
+    <color name="primaryDarkColor">#087F23</color> <!-- Verde oscuro -->
+
+    <!-- Color de acento -->
+    <color name="accentColor">#FF9800</color> <!-- Naranja -->
+
+    <!-- Fondo y texto -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- Blanco -->
+    <color name="textColorPrimary">#212121</color> <!-- Negro intenso -->
+    <color name="textColorSecondary">#757575</color> <!-- Gris -->
+
+    <!-- Otros colores -->
+    <color name="errorColor">#F44336</color> <!-- Rojo -->
+    <color name="successColor">#8BC34A</color> <!-- Verde lima -->
+    <color name="infoColor">#03A9F4</color> <!-- Azul claro -->
+
+    <!-- Fondo de botones -->
+    <color name="buttonBackgroundColor">#2196F3</color> <!-- Azul -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Blanco -->
+</resources>

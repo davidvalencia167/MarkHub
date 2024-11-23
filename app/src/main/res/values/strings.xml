@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MarkHub</string>
+    <string name="ver_productos">Ver Productos</string>
+    <string name="agregar_producto">Agregar Producto</string>
+    <string name="nombre_del_producto">Nombre del Producto</string>
+    <string name="_0_00">$0.00</string>
+    <string name="obtener_ubicaci_n">Obtener Ubicación</string>
+    <string name="abrir_camara">Abrir Cámara</string>
+    <string name="previsualizacion_de_la_foto">Previsualización de la foto</string>
+
+</resources>

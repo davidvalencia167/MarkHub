@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_productos"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/obtener_ubicaci_n" />
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_camara"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/btnGetLocation"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imgPhotoPreview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/btnOpenCamera"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/previsualizacion_de_la_foto"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray" />
+
+
+</LinearLayout>
